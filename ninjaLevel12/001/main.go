@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tmetodie/learning_golang/tree/main/ninjaLevel12/dog"
+	"github.com/tmetodie/learning_golang/ninjaLevel12/dog"
 )
 
 type canine struct {
