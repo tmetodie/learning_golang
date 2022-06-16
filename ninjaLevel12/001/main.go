@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tmetodie/learning_golang/ninjaLevel12/dog"
+	cat "github.com/tmetodie/golang_cat"
 )
 
 type canine struct {
@@ -14,7 +14,7 @@ type canine struct {
 func main() {
 	monti := canine{
 		name: "Monti",
-		age:  dog.Years(3),
+		age:  cat.Years(3),
 	}
 
 	fmt.Println(monti)
